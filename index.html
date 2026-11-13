@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Grand Vishala | Great Taste, Great Moments</title>
+  <meta name="description" content="The Grand Vishala Restaurant, Bhavnagar. Authentic Punjabi flavours with popular Indian and continental dishes." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500&family=Jost:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="home.css" />
+</head>
+<body>
+
+  <!-- ================= Header / Navigation ================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="wrap nav">
+      <a href="#home" class="logo" aria-label="The Grand Vishala, home">
+        <span class="logo-the">The</span>
+        <span class="logo-name">Grand Vishala</span>
+      </a>
+
+      <button class="hamburger" id="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="#home" data-spy="home">Home</a></li>
+          <!-- Menu points to the category preview until the Menu module is built -->
+          <li><a href="#categories" data-spy="categories">Menu</a></li>
+          <li><a href="#about" data-spy="about">About Us</a></li>
+          <li><a href="#contact" data-spy="contact">Contact</a></li>
+        </ul>
+        <ul class="nav-links nav-auth">
+          <li><a href="login.html" class="nav-btn login">Login</a></li>
+          <li><a href="signup.html" class="nav-btn signup">Sign Up</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ================= Hero ================= -->
+    <section class="hero" id="home">
+      <div class="wrap">
+        <div class="hero-inner">
+          <h1>Welcome to The Grand Vishala</h1>
+          <p class="tagline">Great Taste, Great Moments!</p>
+          <p class="intro">
+            Authentic Punjabi flavours, popular Indian classics and favourite continental dishes,
+            prepared with quality ingredients and traditional cooking methods.
+          </p>
+          <div class="hero-actions">
+            <a href="#categories" class="btn btn-gold">Explore Our Menu</a>
+            <a href="#welcome" class="btn btn-outline">Discover More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Welcome ================= -->
+    <section class="section welcome" id="welcome">
+      <div class="wrap">
+        <blockquote>
+          Welcome to The Grand Vishala Restaurant, where great food, warm hospitality,
+          and memorable dining experiences come together.
+        </blockquote>
+        <div class="gold-rule"></div>
+      </div>
+    </section>
+
+    <!-- ================= Our Specialities ================= -->
+    <section class="section" id="specialities">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Our Specialities</h2>
+          <div class="gold-rule"></div>
+          <p>Three favourites our guests come back for.</p>
+        </div>
+
+        <div class="cards-3">
+          <article class="card">
+            <div class="media"><div class="photo photo-thali" role="img" aria-label="Gujarati thali"></div></div>
+            <div class="card-body">
+              <h3>Gujarati Thali</h3>
+              <p>A complete plate of traditional Gujarati dishes, served together in true thali style.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="media"><div class="photo photo-tandoori" role="img" aria-label="Tandoori specialties"></div></div>
+            <div class="card-body">
+              <h3>Tandoori Specialties</h3>
+              <p>Smoky, flavourful dishes from the tandoor, cooked the traditional way.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="media"><div class="photo photo-chai" role="img" aria-label="Masala chai"></div></div>
+            <div class="card-body">
+              <h3>Masala Chai</h3>
+              <p>A warm, refreshing cup of spiced tea to finish a meal or start a conversation.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Menu Categories (preview only) ================= -->
+    <section class="section categories" id="categories">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Menu Categories</h2>
+          <div class="gold-rule"></div>
+          <p>A quick look at what we serve.</p>
+        </div>
+
+        <div class="cards-4">
+          <article class="cat">
+            <div class="photo photo-breakfast" role="img" aria-label="Breakfast"></div>
+            <h3>Breakfast</h3>
+          </article>
+          <article class="cat">
+            <div class="photo photo-lunch" role="img" aria-label="Lunch"></div>
+            <h3>Lunch</h3>
+          </article>
+          <article class="cat">
+            <div class="photo photo-dinner" role="img" aria-label="Dinner"></div>
+            <h3>Dinner</h3>
+          </article>
+          <article class="cat">
+            <div class="photo photo-beverages" role="img" aria-label="Beverages"></div>
+            <h3>Beverages</h3>
+          </article>
+        </div>
+
+        <p class="cat-note">The full menu with dishes and prices is coming soon.</p>
+      </div>
+    </section>
+
+    <!-- ================= About Us Preview ================= -->
+    <section class="section" id="about">
+      <div class="wrap about-grid">
+        <div class="photo photo-about" role="img" aria-label="Dining area at The Grand Vishala"></div>
+
+        <div class="about-text">
+          <h2>About The Grand Vishala</h2>
+          <div class="gold-rule" style="margin-left:0"></div>
+          <p>
+            We bring together the taste of authentic Punjabi cooking and well-loved Indian and
+            continental dishes, for families, friends and food lovers.
+          </p>
+
+          <ul class="about-points">
+            <li>Quality and taste</li>
+            <li>Warm hospitality</li>
+            <li>Comfortable dining atmosphere</li>
+            <li>Customer satisfaction</li>
+          </ul>
+
+          <div class="about-more" id="aboutMore">
+            <p>Welcome to The Grand Vishala Restaurant, where great food, warm hospitality, and memorable dining experiences come together. We believe that every meal should be special, whether you’re enjoying a family dinner, celebrating a special occasion, or spending quality time with friends.</p>
+            <p>Our goal is to serve delicious food in a welcoming and comfortable atmosphere, with a focus on quality, taste, and customer satisfaction. From delightful flavours to friendly service, we strive to make every visit enjoyable and memorable.</p>
+            <p>At The Grand Vishala Restaurant, every meal is a celebration, and every guest is part of our family.</p>
+            <p class="about-sign">The Grand Vishala Restaurant – Great Taste, Great Moments!</p>
+          </div>
+
+          <button type="button" class="btn btn-maroon" id="readMoreBtn" aria-expanded="false" aria-controls="aboutMore">Read More</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= Footer ================= -->
+  <footer class="site-footer" id="contact">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo" aria-label="The Grand Vishala, back to top">
+          <span class="logo-the">The</span>
+          <span class="logo-name">Grand Vishala</span>
+        </a>
+        <p>Great Taste, Great Moments!</p>
+      </div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#categories">Menu</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Contact</h3>
+        <ul class="footer-contact">
+          <li><span class="placeholder">Phone: to be added</span></li>
+          <li><span class="placeholder">Email: to be added</span></li>
+          <li><span class="placeholder">Address: to be added</span></li>
+          <li><span class="placeholder">Opening hours: to be added</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="copyright">&copy; <span id="year">2026</span> The Grand Vishala Restaurant. All rights reserved.</p>
+  </footer>
+
+  <script src="home.js"></script>
+</body>
+</html>
